@@ -1,0 +1,14 @@
+DIR_TESTS=".tests"
+
+.PHONY: all ayuda ascendente descendete
+all: ayuda ascendente descendente
+
+ayuda:
+	@bash $(DIR_TESTS)/test_output.sh ay
+
+ascendente:
+	@bash $(DIR_TESTS)/test_output.sh as
+
+descendente:
+	@bash $(DIR_TESTS)/test_output.sh ds
+

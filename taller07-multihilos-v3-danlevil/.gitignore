@@ -1,0 +1,14 @@
+# Binarios ejecutables
+server
+client
+
+# Object files
+*.o
+
+# Otros ejecutables
+*.exe
+*.out
+
+# Archivos temporales
+~*
+*.swp

@@ -1,0 +1,10 @@
+DIR_TESTS = ".tests"
+
+.PHONY: All Makefile Output
+All: Makefile Output
+
+Makefile:
+	@bash $(DIR_TESTS)/test_makefile.sh
+
+Output:
+	@bash $(DIR_TESTS)/test_output.sh

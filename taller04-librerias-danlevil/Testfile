@@ -1,0 +1,11 @@
+DIR_TESTS=".test"
+
+.PHONY: all hash makefile
+all: hash makefile
+
+
+hash:
+	@bash $(DIR_TESTS)/test_output.sh hash
+
+makefile:
+	@bash $(DIR_TESTS)/test_output.sh makefile

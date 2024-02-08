@@ -1,0 +1,12 @@
+hellomake: hellomake.o hellofunc.o
+	gcc -o hellomake hellomake.o hellofunc.o -I.
+
+hellomake.o: hellomake.c
+	gcc -c hellomake.c -I.
+
+hellofunc.o: hellofunc.c
+	gcc -c hellofunc.c -I.
+
+.PHONY: clean
+clean:
+	rm *.o hellomake

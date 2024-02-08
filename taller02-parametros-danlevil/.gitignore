@@ -1,0 +1,13 @@
+# Binario ejecutable
+programa
+
+# Object files
+*.o
+
+# Otros ejecutables
+*.exe
+*.out
+
+# Archivos temporales
+~*
+*.swp

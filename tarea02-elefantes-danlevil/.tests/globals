@@ -1,0 +1,16 @@
+#Colors
+GREEN='\033[0;32m'
+RED='\033[0;31m'
+BLUE='\033[0;34m'
+NC='\033[0m' # No Color
+
+PASS="${GREEN}PASS:${NC}"
+FAIL="${RED}FAIL:${NC}"
+WARNING="${BLUE}WARNING:${NC}"
+
+EJECUTABLE="promedio"
+TEST_FILE="elephants.txt"
+
+FUNCIONES="funciones.c"
+OBJETO="funciones.o"
+CABECERA="funciones.h"

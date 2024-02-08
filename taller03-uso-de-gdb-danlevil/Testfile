@@ -1,0 +1,13 @@
+DIR_TESTS=".tests"
+
+.PHONY: all normal invalido readme
+all: normal invalido readme
+
+normal:
+	@bash $(DIR_TESTS)/test_output.sh normal
+
+invalido:
+	@bash $(DIR_TESTS)/test_output.sh invalido
+
+readme:
+	@bash $(DIR_TESTS)/test_readme.sh

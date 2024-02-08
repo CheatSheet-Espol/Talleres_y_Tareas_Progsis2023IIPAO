@@ -1,0 +1,10 @@
+DIR_TESTS = ".tests"
+
+.PHONY: All Files Output
+All: Files Output
+
+Files:
+	@bash $(DIR_TESTS)/test_files.sh
+
+Output:
+	@bash $(DIR_TESTS)/test_output.sh

@@ -1,0 +1,10 @@
+DIR_TESTS=".tests"
+
+.PHONY: all encrypt decrypt
+all: encrypt decrypt
+
+encrypt:
+	@bash $(DIR_TESTS)/test_output.sh encrypt
+
+decrypt:
+	@bash $(DIR_TESTS)/test_output.sh decrypt
